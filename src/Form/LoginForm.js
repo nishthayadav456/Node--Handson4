@@ -38,7 +38,7 @@ function LoginForm(){
             password: ""
         })
      
-       navi("/")
+       navi("/logout")
       }
     
     return(

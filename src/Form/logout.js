@@ -20,9 +20,9 @@ const Logout = () => {
         navi('/')
     }
   return (
-    <div>
-   
-      <div className="nav" onClick={handleClick}>Logout</div>
+    <div className='logout'>
+    <h1>Hii, Nishtha</h1> 
+      <button className='log' onClick={handleClick}>Logout</button>
     </div>
   )
 }
