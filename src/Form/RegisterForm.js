@@ -48,11 +48,11 @@ navi("/")
           <label htmlFor="name">Name : </label>
           <input  type="text" placeholder="Enter your name" value={data.name} id="name" name="name" onChange={changeHandle}/>
           <label  htmlFor="phone">Phone : </label>
-          <input  type="text" placeholder="Enter your phone number"value={data.phone} id="phone" name="phone" onChange={changeHandle} required/>
+          <input  type="text" placeholder="Enter your phone number"value={data.phone} id="phone" name="phone" onChange={changeHandle} />
           <label  htmlFor="email">Email : </label>
           <input type="email" placeholder="Enter your email" value={data.email} id="email" name="email" onChange={changeHandle}/>
           <label  htmlFor="password">Password : </label>
-          <input type="password" placeholder="Enter your password" value={data.password} id="password" name="password" onChange={changeHandle} required/>
+          <input type="password" placeholder="Enter your password" value={data.password} id="password" name="password" onChange={changeHandle}/>
           <button className="btn1"  onClick={handleClick}>Signup</button>
           
       </form>

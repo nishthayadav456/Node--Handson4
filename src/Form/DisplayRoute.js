@@ -8,6 +8,7 @@ function DisplayRoute(){
  
         <BrowserRouter>
        <div  className="navbar">
+      
         <NavLink to='/register'>Register</NavLink>
        <NavLink to='/login'>Login</NavLink>
        </div>
