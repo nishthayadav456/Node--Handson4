@@ -37,7 +37,7 @@ function RegisterForm(){
         email: "",
         password: ""
     })
-navi("/")
+navi("/login")
   }
 
   return(
